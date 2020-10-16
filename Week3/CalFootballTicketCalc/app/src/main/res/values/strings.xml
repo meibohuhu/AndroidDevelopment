@@ -1,0 +1,22 @@
+<resources>
+    <string-array name= "Games">
+        <item>Oregon</item>
+        <item>Oregon State</item>
+        <item>Stanford</item>
+        <item>USC</item>
+        <item>UCLA</item>
+        <item>Washington</item>
+        <item>Washington State</item>
+    </string-array>
+
+    <string name="app_name">CalFootballTicketCalc</string>
+    <string name="cal_football">Cal Football</string>
+    <string name="ticket_hint">Number Of Tickets</string>
+    <string name="find_cost">Find Cost</string>
+    <string name="picture_description">Football Stadium</string>
+
+    <string name="is">is:</string>
+    <string name="total_cost">Total Cost for</string>
+    <string name="need_number">Please enter desired ticket number</string>
+
+</resources>

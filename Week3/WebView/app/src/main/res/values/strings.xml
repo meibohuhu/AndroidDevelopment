@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">WebView</string>
+    <string name="topic_choice">Choose Topic</string>
+    <string name="showButton">Show Website</string>
+    <string name="google_text" />
+    <string name="button_text1">Google</string>
+    <string name="button_text2">Amazon</string>
+    <string name="button_text3">Ucla Sports</string>
+
+    <string-array name="url_array">
+        <item >https://www.google.com</item>
+        <item >https://www.amazon.com</item>
+        <item>https://alumni.ucla.edu/ucla-sports/</item>
+    </string-array>
+</resources>
