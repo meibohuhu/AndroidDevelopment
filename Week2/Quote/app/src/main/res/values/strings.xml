@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">HuQuotes</string>
+    <string name="quote_label">Get A Quote</string>
+    <string name="default_quote">The responsibility of knowledge is sharing.</string>
+    <string name="quote_button">GET QUOTE</string>
+    <string-array name="quotes_array">
+        <item>"Be yourself; everyone else is already taken. ― Oscar Wilde"</item>
+        <item>"Super easy, barely an inconvenience ― Ryan George, Screen Rant"</item>
+        <item>"If it isn\'t on Google, it doesn\'t exist- Jimmy Wales "</item>
+        <item>"Think different - Apple"</item>
+        <item>"Success is a lousy teacher. It seduces smart people into thinking they can’t lose. - Bill Gates"</item>
+        <item>"If you want to be inventive — you have to be willing to fail. - Jeff Bezos"</item>
+        <item>"Do or do not. There is no try.- Yoda"</item>
+        <item>"The critical ingredient is getting off your butt and doing something. - Nolan Bushnell"</item>
+        <item>"May the odds be ever in your favor. - Hunger Games"</item>
+        <item>"The important thing is not to stop questioning. - Albert Einstein"</item>
+    </string-array>
+</resources>
