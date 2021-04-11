@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">WendyLaptop</string>
+    <string name="title_laptop">Laptop Information List</string>
+    <string name="laptopPicture">Mac Pro 2020</string>
+    <string name="laptop_detail">Laptop Details</string>
+    <string name="check_like">I like!</string>
+    <string name="name">MeiboHu</string>
+    <string name="checkBox">Like This Laptop</string>
+    <string name="processor">Processor:</string>
+    <string name="default_text">Default Text</string>
+    <string name="memory">Memory:</string>
+    <string name="storage">Storage:</string>
+    <string name="color">Color:</string>
+    <string name="price">Price:</string>
+    <string name="go_back">Go Back</string>
+    <string name="phoneNumber">389-234-2984</string>
+</resources>

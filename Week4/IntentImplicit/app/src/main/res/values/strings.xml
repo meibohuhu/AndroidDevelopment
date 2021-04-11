@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">IntentImplicit</string>
+    <string name="click_it">Click on an item to launch it.</string>
+    <string name="title_activity_main">Implicit Intents</string>
+    <string name="list_browser">Browser</string>
+
+    <string name="list_dialer">Dialer</string>
+    <string name="list_call">Call</string>
+    <string name="list_contacts">Contacts</string> <string name="button_go">Go</string>
+
+    <string-array name="actions">
+        <item>@string/list_browser</item>
+        <item>@string/list_dialer</item>
+        <item>@string/list_call</item>
+        <item>@string/list_contacts</item>
+    </string-array>
+</resources>

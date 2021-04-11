@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/details"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.main.DetailsFragment">
+
+    <ImageView
+        android:id="@+id/laptopDetails_LaptopImage"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginTop="@dimen/margin_20"
+        android:contentDescription="@string/laptopPicture"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/laptopDetails_guideline40"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/laptop" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/laptopDetails_guideline40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintGuide_percent="0.40"
+        app:layout_constraintStart_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/laptopDetails_Label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_15"
+        android:layout_marginLeft="@dimen/margin_15"
+        android:layout_marginTop="@dimen/margin_10"
+        android:text="@string/laptop_detail"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@+id/laptopDetails_guideline40"
+        app:layout_constraintEnd_toEndOf="@id/laptopDetails_guideline50"
+        app:layout_constraintStart_toStartOf="@id/laptopDetails_guideline50"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/laptopDetails_guideline50"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".50" />
+
+    <CheckBox
+        android:id="@+id/laptopDetails_CheckBoxLike"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/checkBox"
+        app:layout_constraintBaseline_toBaselineOf="@+id/laptopDetails_Label"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ScrollView
+        android:id="@+id/laptopDetails_ScrollView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="@dimen/margin_10"
+        android:layout_marginLeft="@dimen/margin_10"
+        android:layout_marginTop="@dimen/margin_10"
+        app:layout_constraintBottom_toTopOf="@+id/laptopDetails_ReturnBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/laptopDetails_Label">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/laptopDetails_ManufactureLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_15"
+                android:text="@string/processor"
+                app:layout_constraintStart_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/laptopDetails_ModelLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_10"
+                android:text="@string/memory"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/laptopDetails_ManufactureLabel" />
+
+            <TextView
+                android:id="@+id/laptopDetails_TypeLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_10"
+                android:text="@string/storage"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/laptopDetails_ModelLabel" />
+
+            <TextView
+                android:id="@+id/laptopDetails_ColorLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_10"
+                android:text="@string/color"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/laptopDetails_TypeLabel" />
+
+            <TextView
+                android:id="@+id/laptopDetails_PriceLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_10"
+                android:text="@string/price"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/laptopDetails_ColorLabel" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/laptopDetails_guideline2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintGuide_percent="0.50"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/laptopDetails_Processor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_text"
+                app:layout_constraintBaseline_toBaselineOf="@+id/laptopDetails_ManufactureLabel"
+                app:layout_constraintStart_toEndOf="@id/laptopDetails_guideline2" />
+
+            <TextView
+                android:id="@+id/laptopDetails_Memory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_text"
+                app:layout_constraintBaseline_toBaselineOf="@+id/laptopDetails_ModelLabel"
+                app:layout_constraintStart_toEndOf="@id/laptopDetails_guideline2" />
+
+            <TextView
+                android:id="@+id/laptopDetails_Storage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_text"
+                app:layout_constraintBaseline_toBaselineOf="@+id/laptopDetails_TypeLabel"
+                app:layout_constraintStart_toEndOf="@id/laptopDetails_guideline2" />
+
+            <TextView
+                android:id="@+id/laptopDetails_Color"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_text"
+                app:layout_constraintBaseline_toBaselineOf="@+id/laptopDetails_ColorLabel"
+                app:layout_constraintStart_toEndOf="@id/laptopDetails_guideline2" />
+
+            <TextView
+
+                android:id="@+id/laptopDetails_Price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/default_text"
+                app:layout_constraintBaseline_toBaselineOf="@+id/laptopDetails_PriceLabel"
+                app:layout_constraintStart_toEndOf="@id/laptopDetails_guideline2" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/laptopDetails_ReturnBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/go_back"
+        app:layout_constraintBottom_toTopOf="@+id/laptopDetails_Phone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/laptopDetails_Phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_10"
+        android:text="@string/phoneNumber"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

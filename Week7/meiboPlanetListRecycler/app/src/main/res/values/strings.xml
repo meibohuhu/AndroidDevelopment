@@ -1,0 +1,57 @@
+<resources>
+        <string name="app_name">meiboPlanetListRecycler</string>
+
+        <string name="title_activity_planet_list">PlanetListRecyclerView</string>
+        <string name="action_settings">Settings</string>
+        <string name="btn_what_is_it">What is it?</string>
+        <string name="message_is_a"> is a </string>
+        <string name="planet_symbol">Planet Symbol</string>
+        <string name="type_planet">planet</string>
+        <string name="type_minor_planet">minor planet</string>
+        <string name="what_is_it">Type</string>
+        <string name="ok">OK</string>
+        <string name="default_text">XX</string>
+
+        <string name="Location">LA</string>
+
+        <string name = "planet_mercury">Mercury</string>
+        <string name = "planet_venus">Venus</string>
+        <string name = "planet_earth">Earth</string>
+        <string name = "planet_mars">Mars</string>
+        <string name = "planet_jupiter">Jupiter</string>
+        <string name = "planet_saturn">Saturn</string>
+        <string name = "planet_uranus">Uranus</string>
+        <string name = "planet_neptune">Neptune</string>
+        <string name = "planet_ceres">Ceres</string>
+        <string name = "planet_pluto">Pluto</string>
+        <string name = "planet_eris">Eris</string>
+
+
+        <string name = "res_Subway">Subway,</string>
+        <string name = "res_Starbucks">Starbucks,</string>
+        <string name = "res_MC">McDonalds,</string>
+        <string name = "res_ChickfilA">Chick-fil-A,</string>
+        <string name = "res_Panda">Panda Express,</string>
+        <string name = "res_BCDTOFU">BCD Tofu,</string>
+        <string name = "res_SunNongDan">Sun Nong Dan,</string>
+        <string name = "res_InNOut">In-N-Out,</string>
+
+        <string name="type_Subway">Sandwich,</string>
+        <string name="type_Starbucks">Coffee,</string>
+        <string name="type_MC">Fast food,</string>
+        <string name="type_ChickfilA">Fast food,</string>
+        <string name="type_Panda">Chinese,</string>
+        <string name="type_BCDTOFU">Korean,</string>
+        <string name="type_SunNongDan">Korean,</string>
+        <string name="type_InNOut">Fast food,</string>
+
+        <string name="cost_Subway">$5-$10,</string>
+        <string name="cost_Starbucks">$5-$10,</string>
+        <string name="cost_MC">$10-20,</string>
+        <string name="cost_ChickfilA">$10-20,</string>
+        <string name="cost_Panda">$10-$20,</string>
+        <string name="cost_BCDTOFU">$30-$40,</string>
+        <string name="cost_SunNongDan">$60-$70,</string>
+        <string name="cost_InNOut">$10-$20,</string>
+    
+</resources>

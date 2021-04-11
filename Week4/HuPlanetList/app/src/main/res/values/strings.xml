@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">HuPlanetList</string>
+    <string name = "planet_mercury">Mercury</string>
+    <string name = "planet_venus">Venus</string>
+    <string name = "planet_earth">Earth</string>
+    <string name = "planet_mars">Mars</string>
+    <string name = "planet_jupiter">Jupiter</string>
+    <string name = "planet_saturn">Saturn</string>
+    <string name = "planet_uranus">Uranus</string>
+    <string name = "planet_neptune">Neptune</string>
+    <string-array name="planets">
+        <item>@string/planet_mercury</item>
+        <item>@string/planet_venus</item>
+        <item>@string/planet_earth</item>
+        <item>@string/planet_mars</item>
+        <item>@string/planet_jupiter</item>
+        <item>@string/planet_saturn</item>
+        <item>@string/planet_uranus</item>
+        <item>@string/planet_neptune</item>
+    </string-array>
+
+
+</resources>

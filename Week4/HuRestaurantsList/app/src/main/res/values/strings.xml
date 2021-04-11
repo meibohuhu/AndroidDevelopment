@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">HuRestaurantsList</string>
+
+    <string name = "res_Subway">Subway</string>
+    <string name = "res_Starbucks">Starbucks</string>
+    <string name = "res_MC">McDonalds</string>
+    <string name = "res_ChickfilA">Chick-fil-A</string>
+    <string name = "res_Panda">Panda Express</string>
+    <string name = "res_BCDTOFU">BCD Tofu</string>
+    <string name = "res_SunNongDan">Sun Nong Dan</string>
+    <string name = "res_InNOut">In-N-Out</string>
+
+    <string-array name="Restaurants">
+        <item>@string/res_Subway</item>
+        <item>@string/res_Starbucks</item>
+        <item>@string/res_MC</item>
+        <item>@string/res_ChickfilA</item>
+        <item>@string/res_Panda</item>
+        <item>@string/res_BCDTOFU</item>
+        <item>@string/res_SunNongDan</item>
+        <item>@string/res_InNOut</item>
+    </string-array>
+
+</resources>

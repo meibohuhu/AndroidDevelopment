@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">HuFastEddy</string>
+    <string name="title_fasteddy">Fast Eddy\'s Used Car Lot</string>
+    <string name="name">MeiboHu</string>
+    <string name="car_details" />
+    <string name="car_detail">CAR DETAILS:</string>
+    <string name="carPicture">car picture</string>
+    <string name="manufacturer">Manufacturer</string>
+    <string name="model">Model:</string>
+    <string name="type">Type:</string>
+    <string name="color">Executive Silver</string>
+    <string name="price">Price</string>
+    <string name="default_text2">Grand Touring</string>
+    <string name="go_back">GO BACK</string>
+    <string name="phoneNumber">800-123-4567</string>
+    <string name="default_text">Default Text</string>
+    <string name="checkBox">Like this car!</string>
+    <string name="check_like">I Like!</string>
+</resources>
